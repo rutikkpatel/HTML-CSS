@@ -1,0 +1,23 @@
+.container{
+	text-align: center;
+}
+.box{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.box h1{
+	width: 400px;
+	height: 400px;
+	background-image: conic-gradient(from -20deg at 38% 59%, #DB4437 0deg,#DB4437 90deg, #4285F4 90deg, #4285F4 180deg, #0F9D58 180deg, #0F9D58 270deg, #F4B400 270deg, #F4B400 360deg);
+	font-size: 30em;
+	margin-top: 0px;
+	padding-top: 9px;
+	padding-bottom: 81px;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent; 
+}

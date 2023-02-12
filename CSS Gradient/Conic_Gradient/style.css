@@ -1,0 +1,64 @@
+.circle {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	border-radius: 50%;
+	float: left;
+	margin: 20px;
+}
+
+.circle_1 {
+	/*Normal*/
+	background-image: conic-gradient(red, green, yellow);
+}
+
+.circle_2 {
+	/*Starting from particular angle*/
+	background-image: conic-gradient(from 45deg, red, green, yellow);
+}
+
+.circle_3 {
+	/*define diff degrees for color*/
+	background-image: conic-gradient(red 180deg, green, yellow);
+}
+
+.circle_4 {
+	/*Not show start and end*/
+	background-image: conic-gradient(red, green, yellow, red);
+}
+
+.circle_5 {
+	/*Repeat gradient*/
+	background-image: repeating-conic-gradient(yellow 0deg, yellow 90deg, green 90deg, green 180deg);
+}
+
+.circle_6 {
+	/*Repeat gradient*/
+	background-image: repeating-conic-gradient(red 0deg, red 20deg, green 20deg, green 30deg);
+}
+
+.circle_7 {
+	/*Repeat gradient with more colors*/
+	background-image: repeating-conic-gradient(red, green 10deg, yellow 15deg);
+}
+
+.circle_8 {
+	background-image: repeating-conic-gradient(rgba(0, 0, 0, 0) 0deg, rgba(0, 0, 0, 0.5) 20deg);
+	background-color: aqua;
+}
+
+.circle_9 {
+
+	/*pattern on x and y using background-size*/
+
+	background-image: repeating-conic-gradient(yellow 0deg, yellow 90deg, green 90deg, green 180deg);
+	background-size: 20px 20px;
+
+	/*do border-radius 0 to make square*/
+	/*border-radius: 0;*/
+}
+
+.circle_10 {
+	/*Repeat gradient*/
+	background-image: conic-gradient(red 0deg, red 90deg, green 90deg, green 180deg, blue 180deg, blue 270deg, yellow 270deg, yellow 360deg);
+}

@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.parallax1{
+	width: 100vw:;
+	height: 100vh;
+	background-image: url(images/Thor1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1{
+	color: black;
+	background-color: yellow;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 5px
+
+}
+
+h2{
+	text-align: center;
+	padding: 3px;
+}
+
+.parallax_text{
+	text-align: center;
+	background-color: yellow;	
+	font-size: 1.5rem;
+	padding: 7px;
+
+}
+.parallax2{
+	width: 100vw:;
+	height: 100vh;
+	background-image: url(images/Thor2.jpg);
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
+.parallax3{
+	width: 100vw:;
+	height: 100vh;
+	background-image: url(images/Thor3.jpg);
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+}
