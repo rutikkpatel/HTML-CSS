@@ -1,23 +1,31 @@
-.container{
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
 	text-align: center;
 }
-.box{
-	margin: 0 auto;
+
+.container h2 {
+	margin: 15px 0px;
+}
+
+.container .box {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-family: 'Kumbh Sans', sans-serif;
 }
 
-.box h1{
+.box h1 {
 	width: 400px;
 	height: 400px;
-	background-image: conic-gradient(from -20deg at 38% 59%, #DB4437 0deg,#DB4437 90deg, #4285F4 90deg, #4285F4 180deg, #0F9D58 180deg, #0F9D58 270deg, #F4B400 270deg, #F4B400 360deg);
 	font-size: 30em;
-	margin-top: 0px;
+	background-image: conic-gradient(from -20deg at 38% 59%, #DB4437 0deg, #DB4437 90deg, #4285F4 90deg, #4285F4 180deg, #0F9D58 180deg, #0F9D58 270deg, #F4B400 270deg, #F4B400 360deg);
 	padding-top: 9px;
 	padding-bottom: 81px;
 	background-clip: text;
 	-webkit-background-clip: text;
-	color: transparent; 
+	color: transparent;
 }
