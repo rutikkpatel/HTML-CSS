@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.container {
+  width: 100vw;
+  height: 90vh;
+  display: grid;
+  place-items: center;
+}
+
+.welcome_text {
+  font-size: 3.2rem;
+  border-right: 2px solid red;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typewriter 5s steps(55, end) forwards;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
